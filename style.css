@@ -1,13 +1,12 @@
-
 body {
   font-family: 'Outfit', sans-serif;
   margin: 0;
-  background: linear-gradient(to bottom, #cce0ff, #ffffff);
+  background: linear-gradient(to bottom, #fdf6e3, #ffffff);
   color: #333;
 }
 
 header {
-  background-color: #003366;
+  background-color: #5c3d2e; /* warm bruin/roestkleur */
   color: white;
   padding: 1rem;
   text-align: center;
@@ -20,13 +19,21 @@ header nav a {
   font-weight: 600;
 }
 
-.intro, .googlemap, .carousel {
+.intro, .googlemap, .carousel, .background-photo {
   max-width: 900px;
   margin: 2rem auto;
   padding: 1rem;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.85);
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.background-photo {
+  background-image: url('images/mijnfoto.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.7);
 }
 
 .carousel-container {
@@ -54,7 +61,7 @@ header nav a {
 footer {
   text-align: center;
   padding: 1rem;
-  background: #003366;
+  background: #5c3d2e;
   color: white;
   font-size: 0.9rem;
 }
